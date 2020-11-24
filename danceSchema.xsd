@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/artSchema" xmlns:tns="http://www.example.org/artSchema" elementFormDefault="qualified">
+<complexType name="dancetype">
+<sequence>
+<element name="dance" type="tns:dancetype">
+</element>
+</sequence>
+</complexType>
+<complexType name="dancetype">
+<sequence>
+<element name="category" type="string">
+</element>
+<element name="choreographer" type="tns:mychoreogrpher">
+</element>
+<element name="time" type="tns:mytime">
+</element>
+<element name="fee" type="tns:myfee">
+</element>
+</sequence>
+<attribute name="mid" type="ID" use="required">
+</attribute>
+</complexType>
+<simpleType name="mychoreogrpher">
+<restriction base="string">
+<pattern value="[a-zA-Z][a-zA-Z][a-zA-Z]"/>
+</restriction>
+</simpleType>
+<simpleType name="mytime">
+<restriction base="integer">
+</restriction>
+</simpleType>
+<simpleType name="myfee">
+<restriction base="integer">
+<minInclusive value="1000"></minInclusive>
+<maxInclusive value="100000"></maxInclusive>
+</restriction>
+</simpleType>
+
+</schema>

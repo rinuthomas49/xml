@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="volim.xslt"?>
+<dances>
+<dance mid="M1">
+<category>ballet</category>
+<choreographer>Sam</choreographer>
+<time>7-9am</time>
+<fee>1500</fee>
+</dance>
+<dance mid="M2">
+<category>Group Dance</category>
+<choreographer>Denni T</choreographer>
+<time>10am-12pm</time>
+<fee>1000</fee>
+</dance>
+<dance mid="M3">
+<category>Salsa</category>
+<choreographer>Jackson D</choreographer>
+<time>10am-1pm</time>
+<fee>2000</fee>
+</dance>
+<dance mid="M4">
+<category>Girl</category>
+<choreographer>Siviya Raj</choreographer>
+<time>7pm-9pm</time>
+<fee>1650</fee>
+</dance>
+<dance mid="M5">
+<category>HipHop Dance</category>
+<choreographer>Benita</choreographer>
+<time>2pm-4pm</time>
+<fee>1200</fee>
+</dance>
+</dances>
